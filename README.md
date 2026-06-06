@@ -9,14 +9,6 @@ A web-based optimizer for Cafe by Origen. Finds the best dish menu and character
 - Data persists in browser (localStorage)
 - Default data loaded from `data.json` on first visit
 
-## Hosting on GitHub Pages
-
-1. Create a new GitHub repository
-2. Upload all files (`index.html`, `style.css`, `app.js`, `data.json`)
-3. Go to **Settings → Pages**
-4. Set source to **Deploy from a branch → main → / (root)**
-5. Your site will be live at `https://<your-username>.github.io/<repo-name>`
-
 ## Skill Format
 
 Each character skill has:
