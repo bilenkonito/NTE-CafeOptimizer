@@ -52,7 +52,7 @@ const MASTER_DATA = {
       "name": "Nanally",
       "skills": [
         { "level": 1, "val": 0.20, "req": 1, "type": "Price_Flat", "tag": "Main Dishes" },
-        { "level": 5, "val": 0.30, "req": 2, "type": "Price_Flat", "tag": "None" }
+        { "level": 5, "val": 0.30, "req": 2, "type": "Price_Flat", "tag": "Main Dishes" }
       ]
     },
     {
