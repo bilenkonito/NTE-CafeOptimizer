@@ -1,4 +1,3 @@
-import masterDataJson from './data.json' with { type: 'json' };
 // ── STORAGE KEYS ───────────────────────────────────────────────────────────
 const DATA_KEY     = 'cafe_origen_data_v2';   // { dishes: {}, characters: {} } — keyed by name
 const SETTINGS_KEY = 'cafe_origen_settings';
@@ -13,7 +12,7 @@ let settings = { cafesOwned: 5, trendCategory: '', trendBonus: 1.0, popularityBo
 
 // ── LOAD ───────────────────────────────────────────────────────────────────
 function init() {
-  masterData = masterDataJson;
+  masterData = MASTER_DATA;
   loadSettings();
   loadUserState();
   populateTrendDropdown();
