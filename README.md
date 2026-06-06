@@ -1,5 +1,6 @@
 # Cafe by Origen — Roster Optimizer
 
+Acess website at https://kuro-121.github.io/NTE-CafeOptimizer/
 A web-based optimizer for Cafe by Origen. Finds the best dish menu and character team to maximize Fons/hr income.
 
 ## Features
