@@ -15,11 +15,24 @@ function init() {
   masterData = MASTER_DATA;
   loadSettings();
   loadUserState();
+  seedUserState();
   populateTrendDropdown();
   renderDishes();
   renderCharacters();
   updateRosterSummary();
   applySettings();
+}
+
+// Fills in default entries for any dish/character not yet in userState.
+// This runs after loadUserState so existing saves are preserved.
+function seedUserState() {
+  masterData.dishes.forEach(d => {
+    if (!userState.dishes[d.name]) userState.dishes[d.name] = { owned: false, level: 1 };
+  });
+  masterData.characters.forEach(c => {
+    if (!userState.characters[c.name]) userState.characters[c.name] = { owned: false, level: 1 };
+  });
+  saveUserState();
 }
 
 function loadUserState() {
