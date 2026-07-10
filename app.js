@@ -379,7 +379,7 @@ function runOptimizer() {
     const maxTagCount = Math.max(...Object.values(tagCounts), 0);
 
     charCombos.forEach(testTeam => {
-      let currentTraffic = 2400;
+      let currentTraffic = 2424;
       let currentPriceBuff = 0;
       let currentPriceMultiplier = 1.0;
       const tempLog = [];
