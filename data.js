@@ -118,7 +118,7 @@ const MASTER_DATA = {
       "name": "Aurelia",
       "skills": [
         { "level": 1, "val": 0.12, "req": 0, "type": "Price_Flat", "tag": "None" },
-        { "level": 2, "val": 0.02, "req": 2, "type": "Traffic_Multiply", "tag": "Beverages" },
+        { "level": 2, "val": 0.01, "req": 2, "type": "Traffic_Multiply", "tag": "Beverages" },
         { "level": 5, "val": 0.015, "req": 2, "type": "Traffic_Multiply", "tag": "Beverages" }
       ]
     },
